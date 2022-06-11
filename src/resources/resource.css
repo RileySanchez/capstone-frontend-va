@@ -1,0 +1,24 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 900px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+  .resource-container {
+    width: 100vw;
+  }
+  .description {
+    width: 90vw;
+  }
+}

@@ -1,0 +1,47 @@
+.navigation-container {
+  width: 100vw;
+  height: 150px;
+  background-color: black;
+}
+
+.navigation-logo {
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  color: white;
+}
+
+.navigation-link {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 400px) {
+  .navigation-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation-link {
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navigation-logo {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    color: white;
+    justify-content: center;
+  }
+}

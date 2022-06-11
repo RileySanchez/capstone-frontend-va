@@ -1,0 +1,17 @@
+.resource-container {
+  width: 100px;
+}
+
+.resource {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+  .resource-container {
+    width: 95%;
+  }
+}

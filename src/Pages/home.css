@@ -1,0 +1,46 @@
+.content-top {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 45vh;
+}
+
+.homepage-wrapper {
+  background-image: url("../pictures/background.jpg");
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-bottom {
+  display: flex;
+  flex-direction: row;
+  height: 55vh;
+  width: 100vw;
+}
+
+.homepage-footer {
+  background-color: black;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 100px;
+}
+
+@media screen and(max-width:400px) {
+  .content-top {
+    top: 100%;
+    left: 50%;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+  }
+}
